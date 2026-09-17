@@ -1,0 +1,29 @@
+version: 1.0.0
+
+calculation:
+  bmr_method: mifflin_st_jeor
+  activity_factors:
+    sedentary: 1.2
+    light: 1.375
+    moderate: 1.55
+    very_active: 1.725
+  trend_review_days: 14
+
+planning:
+  default_energy_deficit_kcal_range: [250, 500]
+  weekly_weight_change_pct_range: [0.25, 0.75]
+  max_weekly_priorities: 3
+  default_walk_minutes: 20
+  default_weekly_strength_sessions: 2
+
+habits:
+  daily_checkin_required: false
+  weekly_minimum_records: 2
+  reminders_opt_in: true
+  missed_task_response: deescalate
+
+safety:
+  red_flag_action: stop_plan_and_refer
+  high_stress_plan_mode: deescalate
+  binge_response_mode: normalize_and_resume
+  photo_body_fat_estimation: prohibited

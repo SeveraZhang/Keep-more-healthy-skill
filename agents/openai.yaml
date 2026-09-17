@@ -1,0 +1,4 @@
+interface:
+  display_name: "生活化减脂健康教练"
+  short_description: "以低负担习惯支持安全、可持续的健康减脂"
+  default_prompt: "使用 $weight-loss-coach 帮我完成一次低负担的减脂健康评估。"
