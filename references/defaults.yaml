@@ -1,4 +1,4 @@
-version: 1.0.2
+version: 1.0.3
 
 conversation:
   quick_start_max_questions: 4
@@ -7,6 +7,9 @@ conversation:
   max_follow_up_questions: 1
   default_language: zh-CN
   tables_by_default: false
+  sensitive_question_opt_out: true
+  sensitive_question_opt_out_phrase: "不方便回答或直接说不回答都可以"
+  sensitive_question_action_on_decline: conservative_plan_and_state_limit
 
 calculation:
   bmr_method: mifflin_st_jeor
