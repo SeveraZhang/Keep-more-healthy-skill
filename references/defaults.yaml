@@ -1,4 +1,4 @@
-version: 1.0.3
+version: 1.0.4
 
 conversation:
   quick_start_max_questions: 4
@@ -10,6 +10,14 @@ conversation:
   sensitive_question_opt_out: true
   sensitive_question_opt_out_phrase: "不方便回答或直接说不回答都可以"
   sensitive_question_action_on_decline: conservative_plan_and_state_limit
+  repeat_measurement_questions: false
+  ask_measurement_again_only_if: [user_updates, recalculation_requested, stale_or_safety_critical]
+  encouragement_style: warm_specific_conditional
+
+recordkeeping:
+  remember_confirmed_measurements: true
+  require_user_consent_before_saving: true
+  store_measurement_date: true
 
 calculation:
   bmr_method: mifflin_st_jeor
