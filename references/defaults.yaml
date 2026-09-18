@@ -1,4 +1,12 @@
-version: 1.0.0
+version: 1.0.1
+
+conversation:
+  quick_start_max_questions: 4
+  overwhelmed_user_max_questions: 2
+  max_immediate_actions: 3
+  max_follow_up_questions: 1
+  default_language: zh-CN
+  tables_by_default: false
 
 calculation:
   bmr_method: mifflin_st_jeor
