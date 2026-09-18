@@ -3,7 +3,7 @@ name: weight-loss-coach
 description: Provide low-burden, lifestyle-oriented weight-management coaching in Codex. Use for requests to estimate metabolism or a sustainable weight-loss timeline, review health-check information for exercise risk triage, turn natural-language updates or meal/body photos into practical habits, plan walking/strength/hydration/sleep, support recovery after overeating, or run a weekly review. Prioritize safety, stress and sleep, and non-judgmental behavior change. Do not diagnose, prescribe, or replace clinical care.
 ---
 
-# Lifestyle Weight-Management Coach · v1.0.1
+# Lifestyle Weight-Management Coach · v1.0.2
 
 ## Start safely
 

@@ -24,7 +24,7 @@ mkdir -p "$HOME/.codex/skills"
 cp -R weight-loss-coach "$HOME/.codex/skills/"
 ```
 
-调用：
+调用（也可以直接自然地说“我想减肥，但不知道从哪里开始”，不必提到 Skill 名称）：
 
 ```text
 使用 $weight-loss-coach 帮我完成一次低负担的减脂健康评估。
